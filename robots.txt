@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pesulova.goden.ai/sitemap.xml
