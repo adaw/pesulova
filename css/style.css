@@ -902,3 +902,24 @@ img { max-width: 100%; height: auto; }
 [data-theme="dark"] .accordion-body {
   background: #151d2e;
 }
+
+/* --- Unified icon style --- */
+.values-icon i,
+.feature-icon i,
+.contact-icon i,
+.icon i {
+  font-size: 2rem;
+  color: var(--gold);
+  line-height: 1;
+}
+
+.values-icon,
+.feature-icon,
+.icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-icon i {
+  font-size: 1.5rem;
+}
