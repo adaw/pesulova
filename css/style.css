@@ -786,3 +786,103 @@ img { max-width: 100%; height: auto; }
 .breadcrumb-custom .breadcrumb-item + .breadcrumb-item::before {
   color: rgba(255,255,255,0.3);
 }
+
+/* --- Dark Mode --- */
+[data-theme="dark"] {
+  --white: #0f1623;
+  --off-white: #151d2e;
+  --gray-100: #1a2336;
+  --gray-200: #243352;
+  --gray-400: #8899aa;
+  --gray-600: #aabbcc;
+  --gray-800: #dde4ee;
+}
+
+[data-theme="dark"] body {
+  background: #0f1623;
+  color: #dde4ee;
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5 {
+  color: #e8edf4;
+}
+
+[data-theme="dark"] p {
+  color: #aabbcc;
+}
+
+[data-theme="dark"] .navbar-custom {
+  background: #0f1623;
+  border-bottom-color: #243352;
+}
+
+[data-theme="dark"] .navbar-brand .brand-name {
+  color: #e8edf4 !important;
+}
+
+[data-theme="dark"] .navbar-custom .nav-link {
+  color: #aabbcc !important;
+}
+
+[data-theme="dark"] .navbar-custom .nav-link:hover,
+[data-theme="dark"] .navbar-custom .nav-link.active {
+  color: var(--gold) !important;
+}
+
+[data-theme="dark"] .navbar-custom .dropdown-menu {
+  background: #151d2e;
+  border: 1px solid #243352;
+}
+
+[data-theme="dark"] .navbar-custom .dropdown-item {
+  color: #aabbcc;
+}
+
+[data-theme="dark"] .navbar-custom .dropdown-item:hover {
+  background: #1a2336;
+  color: var(--gold);
+}
+
+[data-theme="dark"] .hero {
+  background: linear-gradient(135deg, #0a0f1a 0%, #111b30 100%);
+}
+
+[data-theme="dark"] .card,
+[data-theme="dark"] .practice-card {
+  background: #151d2e;
+  border-color: #243352;
+}
+
+[data-theme="dark"] .section-light {
+  background: #0f1623;
+}
+
+[data-theme="dark"] .section-alt,
+[data-theme="dark"] .section-dark {
+  background: #151d2e;
+}
+
+[data-theme="dark"] footer {
+  background: #080c14 !important;
+}
+
+[data-theme="dark"] .theme-toggle-btn {
+  color: #e8edf4;
+}
+
+[data-theme="dark"] .breadcrumb-item a {
+  color: var(--gold);
+}
+
+[data-theme="dark"] .breadcrumb-item.active {
+  color: #aabbcc;
+}
+
+[data-theme="dark"] .faq-answer,
+[data-theme="dark"] .accordion-body {
+  background: #151d2e;
+}
