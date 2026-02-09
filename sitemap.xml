@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://pesulova.goden.ai/</loc><priority>1.0</priority></url>
-  <url><loc>https://pesulova.goden.ai/spravni-pravo.html</loc><priority>0.8</priority></url>
-  <url><loc>https://pesulova.goden.ai/duchodove-pravo.html</loc><priority>0.8</priority></url>
-  <url><loc>https://pesulova.goden.ai/azylove-pravo.html</loc><priority>0.8</priority></url>
-  <url><loc>https://pesulova.goden.ai/trestni-pravo.html</loc><priority>0.8</priority></url>
-  <url><loc>https://pesulova.goden.ai/rodinne-pravo.html</loc><priority>0.8</priority></url>
-  <url><loc>https://pesulova.goden.ai/o-mne.html</loc><priority>0.7</priority></url>
-  <url><loc>https://pesulova.goden.ai/kontakt.html</loc><priority>0.9</priority></url>
+  <url><loc>https://pesulova.goden.ai/</loc><lastmod>2025-02-09</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://pesulova.goden.ai/spravni-pravo.html</loc><lastmod>2025-02-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pesulova.goden.ai/duchodove-pravo.html</loc><lastmod>2025-02-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pesulova.goden.ai/azylove-pravo.html</loc><lastmod>2025-02-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pesulova.goden.ai/trestni-pravo.html</loc><lastmod>2025-02-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pesulova.goden.ai/rodinne-pravo.html</loc><lastmod>2025-02-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pesulova.goden.ai/o-mne.html</loc><lastmod>2025-02-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pesulova.goden.ai/kontakt.html</loc><lastmod>2025-02-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 </urlset>

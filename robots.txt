@@ -1,3 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /img/
+
 Sitemap: https://pesulova.goden.ai/sitemap.xml
+
+# Advokátní kancelář JUDr. Anita Pešulová
+# https://pesulova.goden.ai
