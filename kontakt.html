@@ -72,7 +72,7 @@
           <li class="nav-item"><a class="nav-link" href="o-mne.html">O mně</a></li>
           <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
           <li class="nav-item ms-lg-2">
-            <button class="btn btn-sm btn-outline-secondary theme-toggle-btn" id="themeToggle" aria-label="Přepnout motiv" style="border:none;background:none;font-size:1.1rem;cursor:pointer;padding:0.25rem 0.5rem;">🌙</button>
+            <button class="btn btn-sm btn-outline-secondary theme-toggle-btn" id="themeToggle" aria-label="Přepnout motiv" style="border:none;background:none;font-size:1.1rem;cursor:pointer;padding:0.25rem 0.5rem;"><i class="bi bi-moon-fill"></i></button>
           </li>
           <li class="nav-item ms-lg-2">
             <a class="btn btn-gold btn-sm" href="kontakt.html">Konzultace</a>
@@ -216,11 +216,11 @@
     var btn = document.getElementById("themeToggle");
     if(!btn) return;
     var stored = localStorage.getItem("theme");
-    if(stored === "dark") { document.documentElement.setAttribute("data-theme","dark"); btn.textContent="☀️"; }
+    if(stored === "dark") { document.documentElement.setAttribute("data-theme","dark"); btn.innerHTML='<i class="bi bi-sun-fill"></i>'; }
     btn.addEventListener("click", function(){
       var isDark = document.documentElement.getAttribute("data-theme") === "dark";
-      if(isDark){ document.documentElement.removeAttribute("data-theme"); btn.textContent="🌙"; localStorage.setItem("theme","light"); }
-      else { document.documentElement.setAttribute("data-theme","dark"); btn.textContent="☀️"; localStorage.setItem("theme","dark"); }
+      if(isDark){ document.documentElement.removeAttribute("data-theme"); btn.innerHTML='<i class="bi bi-moon-fill"></i>'; localStorage.setItem("theme","light"); }
+      else { document.documentElement.setAttribute("data-theme","dark"); btn.innerHTML='<i class="bi bi-sun-fill"></i>'; localStorage.setItem("theme","dark"); }
     });
   })();
 </script>
