@@ -70,31 +70,39 @@ img { max-width: 100%; height: auto; }
   padding: 0.6rem 0;
 }
 
-.navbar-logo {
-  transition: var(--transition);
+.navbar-brand {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  text-decoration: none !important;
 }
 
-.navbar-custom.scrolled .navbar-logo {
-  height: 38px !important;
-}
-
-.navbar-brand-text {
+.navbar-brand .brand-name {
   font-family: var(--font-serif);
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--navy) !important;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
 }
 
-.navbar-brand-text span {
-  display: block;
-  font-family: var(--font-sans);
-  font-size: 0.7rem;
-  font-weight: 400;
+.navbar-brand .brand-divider {
   color: var(--gold);
-  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 1.1rem;
+  opacity: 0.6;
+}
+
+.navbar-brand .brand-title {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--gold-dark);
+  letter-spacing: 2.5px;
   text-transform: uppercase;
-  margin-top: -2px;
+}
+
+.navbar-brand:hover .brand-name {
+  color: var(--gold-dark) !important;
 }
 
 .navbar-custom .nav-link {
@@ -750,7 +758,7 @@ img { max-width: 100%; height: auto; }
   .page-hero h1 { font-size: 1.8rem; }
   .section { padding: 3rem 0; }
   .about-photo-placeholder { height: 300px; }
-  .navbar-brand-text { font-size: 1.15rem; }
+  .navbar-brand .brand-name { font-size: 1.1rem; } .navbar-brand .brand-title { font-size: 0.65rem; }
 }
 
 /* --- Utility --- */
