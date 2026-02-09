@@ -162,8 +162,8 @@ img { max-width: 100%; height: auto; }
   right: -5%;
   top: 50%;
   transform: translateY(-50%);
-  width: 500px;
-  height: 500px;
+  width: 550px;
+  height: 550px;
   background: url('../img/logo-watermark.svg') no-repeat center;
   background-size: contain;
   opacity: 1;

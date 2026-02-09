@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" fill="none">
   <!-- Brush circle -->
-  <ellipse cx="200" cy="200" rx="160" ry="160" stroke="rgba(255,255,255,0.06)" stroke-width="8" stroke-linecap="round"/>
-  <ellipse cx="200" cy="200" rx="155" ry="155" stroke="rgba(255,255,255,0.04)" stroke-width="3" stroke-dasharray="4 8" stroke-linecap="round"/>
-  <!-- Second brush stroke hint -->
-  <path d="M 340 180 Q 360 120, 320 70 Q 280 20, 200 45 Q 120 20, 80 70 Q 40 120, 60 200 Q 40 280, 80 330 Q 120 380, 200 360 Q 280 380, 320 330 Q 360 280, 340 200" stroke="rgba(255,255,255,0.04)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <ellipse cx="200" cy="200" rx="165" ry="165" stroke="rgba(255,255,255,0.12)" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="200" cy="200" rx="158" ry="158" stroke="rgba(255,255,255,0.06)" stroke-width="2" stroke-linecap="round"/>
   <!-- Calligraphic A -->
-  <text x="200" y="240" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="200" font-style="italic" font-weight="400" fill="rgba(255,255,255,0.06)">A</text>
-  <!-- Gold accent arc -->
-  <path d="M 140 60 Q 180 30, 220 45" stroke="rgba(201,169,110,0.08)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="200" y="250" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="220" font-style="italic" font-weight="400" fill="rgba(255,255,255,0.10)">A</text>
+  <!-- Gold accent arc at top -->
+  <path d="M 150 50 Q 190 25, 230 42" stroke="rgba(201,169,110,0.15)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- AK-PEŠULOVÁ text below circle -->
+  <text x="200" y="410" text-anchor="middle" font-family="'Inter', sans-serif" font-size="28" font-weight="500" letter-spacing="6" fill="rgba(255,255,255,0.08)">AK-PEŠULOVÁ</text>
 </svg>
