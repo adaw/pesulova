@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /img/
 
 Sitemap: https://pesulova.goden.ai/sitemap.xml
 
