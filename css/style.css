@@ -928,3 +928,9 @@ img { max-width: 100%; height: auto; }
 .contact-icon i {
   font-size: 1.5rem;
 }
+
+/* Performance: content-visibility for below-fold sections */
+.services-overview, .about-preview, .testimonials, .blog-preview, .faq-section, .cta-section, footer {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
